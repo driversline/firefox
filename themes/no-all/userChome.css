@@ -1,0 +1,38 @@
+* {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+    transition: none !important;
+    color: inherit !important;
+    text-shadow: none !important;
+    filter: none !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    color: white !important;
+}
+
+:root[tabsintitlebar][sizemode="maximized"] #nav-bar {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+:root[tabsintitlebar][sizemode="maximized"] #urlbar {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+#nav-bar {
+    display: flex !important;
+    background-color: black !important;
+}
+
+#TabsToolbar {
+    display: flex !important;
+    background-color: black !important;
+    z-index: 777;
+}
+
+#urlbar {
+    background-color: black !important;
+}
