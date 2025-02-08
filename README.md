@@ -11,6 +11,6 @@ $HOME/.mozilla/firefox/Your_hash.default/chrome/userChrome.css
 ## Settings
 ```bash
 about:config
-toolkit.legacyUserProfileCustomizations.stylesheets
+toolkit.legacyUserProfileCustomizations.stylesheets - `true`
 ```
-- `true`
+
